@@ -5,8 +5,12 @@ export class DatepickerPo extends BaseComponent {
   pageTitle = 'Datepicker';
   ghLinkToComponent = 'https://github.com/valor-software/ngx-bootstrap/tree/development/src/datepicker';
 
+  datepickerInput = 'input[bsdatepicker]';
+  daterangepickerInput = 'input[bsdaterangepicker]';
+
+
   exampleDemosArr = {
-    basic: 'demo-date-picker-popup',
+    basic: 'demo-datepicker-basic',
     customFormat: 'demo-date-picker-custom-format',
     themes: 'demo-datepicker-color-theming',
     locales: 'demo-datepicker-change-locale',
